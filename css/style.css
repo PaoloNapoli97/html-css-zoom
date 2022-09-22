@@ -72,6 +72,12 @@ a{
     bottom: 4px;
 }
 
+.up{
+    display: flex;
+    margin: 0 14px;
+    align-items: center;
+}
+
 /*------------  
     HEADER
 ------------*/
@@ -89,8 +95,69 @@ a{
 .container{
     display: flex;
     flex-wrap: wrap;
-2
 }
 
+/*------------  
+    FOOTER
+------------*/
+
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.audio{
+    padding: 0 20px;
+    display: flex;
+}
+
+.audio, .leave{
+    width: 20%;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.options .icon-box{
+    padding: 0 10px;
+}
+
+.green {
+    color: lightgreen;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.up button{
+    color: white;
+    background: none;
+    border: none;
+}
+
+.leave{
+    display: flex;
+    justify-content: flex-end;
+    font-size: px;
+    color: red;
+    font-weight: 700;
+}
+
+.box-leave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 200px;
+    background-color: #4a4a4a;
+}
 
 
