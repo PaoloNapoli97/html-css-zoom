@@ -16,7 +16,7 @@ body {
 
 header {
     height: 46px;
-    padding-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -55,9 +55,9 @@ a{
 }
 
 .user-box{
-    margin: 4px;
+    padding: 4px;
     position: relative;
-    width: 13.928%
+    width: calc(100% / 7 - 10px)
     /* background-color: aqua; */
 }
 
